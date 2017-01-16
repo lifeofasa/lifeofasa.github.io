@@ -33,9 +33,10 @@ header p {
   align-items: center;
   background-image: url('https://github.com/lifeofasa/lifeofasa.github.io/blob/master/bestasa.jpg?raw=true');
   background-size: cover;
+  height: 570px;
+  width:100%;
   color: #ffffff;
-  height: 110%;
-  width: auto;
+
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
