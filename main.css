@@ -30,7 +30,7 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: center;
+  align-items: contain;
   background-image: url('https://github.com/lifeofasa/lifeofasa.github.io/blob/master/bestasa.PNG?raw=true');
   background-size: cover;
   color: #ffffff;
