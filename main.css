@@ -1,8 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;  
-  background-color: #ccffff
- /*#e6ffff*/;			/*#d6f5d6;*/
+  background-color: /*#ccffff*/
+ #e6ffff;			/*#d6f5d6;*/
 }
 
 header {
