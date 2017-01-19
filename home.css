@@ -150,7 +150,7 @@
   background-image: url('greenshade.JPG');
   background-size:cover;
   height: 470px;
-  width: 15%;
+  width: 10%;/*changed from 15 to 10 on phone*/
 }
 
  .slide-secpartthree h1 {
