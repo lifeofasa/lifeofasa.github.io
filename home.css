@@ -1,7 +1,10 @@
 /* General */
+body {
+background-image: url('dotshade.png');   
+}
 
 .container {
-  width: 960px;
+  width: 960px; 
 }
 
 /*
@@ -25,8 +28,9 @@
 /* Header */
 .header {
    padding: 10px;
+background-image: url('dotshade.png');   
    background-color: rgba(255, 255, 255, 0.95);
-   border-bottom: 1px solid black/*#ddd*/;
+   border-bottom: 2.5px solid black/*#ddd*/;
    font-family: 'Oswald', sans-serif;
    font-weight: 300;
    font-size: 16px;
@@ -72,11 +76,13 @@
 }
 
 .btn-primary.btn-outline {
-    color: #428bca;
+    color: royalblue;#428bca;
 }
 
 .btn-primary.btn-outline:hover {
     color: #fff;
+    border-color: hotpink;
+    background-color: pink;
 }
 
 
@@ -86,12 +92,12 @@
   position: relative;
   width: 100%;
   height: 470px;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
 }
 
 .slide {
-  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
-  background-size: cover;
+  /*background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;*/
   display: none;
   position: absolute;
   top: 0;
@@ -104,13 +110,19 @@
     display: block;
 }
 
+.row-slide {
+  border-bottom: 2px solid black; 
+  border-left: 2px solid black;  
+  border-right: 2px solid black;      
+}
+
  .slide-firstpartone {
   text-align: center;
   background-image: url('https://github.com/lifeofasa/lifeofasa.github.io/blob/master/bestasa.jpg?raw=true');
   background-size:cover;
   height: 470px;
   width: 75%;
-  background-position: -75px;
+  background-position: -75px;    
 }
 
  .slide-firstparttwo {
@@ -118,7 +130,7 @@
   background-image: url('greenshade.JPG');
   background-size:cover;
   height: 470px;
-  width: 25%;
+  width: 25%;    
 }
 
  .slide-firstparttwo h1 {
@@ -130,7 +142,7 @@
   background-image: url('photocombine.jpg');
   background-size:cover;
   height: 470px;
-  width: 50%;
+  width: 50%;    
   /*background-position: -75px;*/
 }
 
@@ -150,7 +162,7 @@
   background-image: url('greenshade.JPG');
   background-size:cover;
   height: 470px;
-  width: 15%;
+  width: 15.63644%;
 }
 
  .slide-secpartthree h1 {
@@ -329,7 +341,7 @@
 }
 
 .slider-dots li {
-  color: #bbbcbc;
+  color: pink/*#bbbcbc*/;
   display: inline;
   font-size: 30px;
   margin-right: 5px;
@@ -356,4 +368,24 @@
 
 .get-app img {
   height: 40px;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 500px;
+}
+
+footer .col-xs-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }

@@ -24,8 +24,10 @@ body {
   background-image: url('dotshade.png');   
 }
 
-p {
-    font-size: 13.5px;
+.notReady {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 80px;
     font-weight: 700;
 }
 /* Menu */ 
