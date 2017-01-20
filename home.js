@@ -44,8 +44,16 @@ var main = function() {
   });
     
   $('.about-button').click(function(){
+    window.open("asaAbout.html");
+  }); 
+    
+  $('.photo-button').click(function(){
     window.open("asaPhoto.html");
-  });    
+  }); 
+    
+  $('.video-button').click(function(){
+    window.open("asaVideo.html");
+  });     
 };
 
 $(document).ready(main);

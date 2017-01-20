@@ -19,10 +19,10 @@
   padding: 10px;
 }
 
-h1{
-    font-size:30px;
+h1 {
+    font-size: 30px;
+    font-family:cursive;
     font-weight: 900;
-    font-family: cursive;
 }
 
 p {
@@ -33,13 +33,21 @@ p {
 body {
   background-image: url('dotshade.png');   
 }
-
-.notReady {
+ 
+.para1 {
     text-align: center;
-    font-size: 80px;
+    padding-top: 23rem;
+    padding-left: 13rem;
+    font-size: 23px;
     font-weight: 700;
     font-family: cursive;
+}
 
+.para2 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: cursive;
 }
 /* Menu */ 
 
@@ -59,9 +67,9 @@ body {
   color: black/*#898989*/;
 }
 
-section .row img {
-  width: 100%;
-  border-radius: 25px;
+section .row .redpillow {
+  /*width: 100%;*/
+  border-radius: 50px;
   border: 1.7px solid black/*#73AD21*/;
 }
 
