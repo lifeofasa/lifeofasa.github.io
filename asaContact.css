@@ -70,7 +70,7 @@ body {
 section .row .redpillow {
   /*width: 100%;*/
   border-radius: 50px;
-  border: 1.7px solid black/*#73AD21*/;
+  border: .5rem solid pink/*#73AD21*/;
 }
 
 .col-xs-6 {
